@@ -19,7 +19,7 @@ namespace L2_Ukol
             Console.WriteLine("Vlož matematickou operaci (+, -, *, /):");
             string oper = Console.ReadLine();
 
-            double vysledek;
+            double vysledek = 0;
 
             if (oper == "+")
             {
@@ -52,8 +52,8 @@ namespace L2_Ukol
                 Console.WriteLine("Povolené operace jsou pouze +, -, *, /");
             }
 
-            Console.WriteLine("Výsledek: "+numOneDou+" "+oper+" "+numTwoDou+" = "+vysledek);
-            //Console.WriteLine($"Výsledek: {numOneDou} {oper} {numTwoDou} = {vysledek}");
+            //Console.WriteLine("Výsledek: "+numOneDou+" "+oper+" "+numTwoDou+" = "+vysledek);
+            Console.WriteLine($"Výsledek: {numOneDou} {oper} {numTwoDou} = {vysledek}");
         }
     }
 }
